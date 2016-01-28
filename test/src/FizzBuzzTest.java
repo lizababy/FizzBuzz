@@ -29,6 +29,11 @@ public class FizzBuzzTest {
         assertEquals("Buzz",fizzBuzz.fizzBuzz(5));
 
     }
+    @Test
+    public void whenFizzBuzzIsPassedMultipleOfTreeAndFiveReturnsFizzBuzz(){
+        assertEquals("FizzBuzz",fizzBuzz.fizzBuzz(15));
+
+    }
 
 
 }
