@@ -17,11 +17,13 @@ public class FizzBuzzTest {
     @Test
     public void whenFizzBuzzIsPassedANumberItReturnsString(){
        assertEquals("1",fizzBuzz.fizzBuzz(1));
+        assertEquals("1",fizzBuzz.fizzBuzz(1000));
 
     }
     @Test
     public void whenFizzBuzzIsPassedMultipleOfThreeReturnsFizz(){
         assertEquals("Fizz",fizzBuzz.fizzBuzz(3));
+        assertEquals("Fizz",fizzBuzz.fizzBuzz(6));
 
     }
     @Test
@@ -32,6 +34,7 @@ public class FizzBuzzTest {
     @Test
     public void whenFizzBuzzIsPassedMultipleOfTreeAndFiveReturnsFizzBuzz(){
         assertEquals("FizzBuzz",fizzBuzz.fizzBuzz(15));
+        assertEquals("FizzBuzz",fizzBuzz.fizzBuzz(20));
 
     }
 
